@@ -1,0 +1,43 @@
+body {
+  /* font-family: "Barlow", sans-serif; */
+  margin: 15px;
+}
+
+div {
+  color: blue;
+}
+
+#comments-title {
+  color: #891c1c;
+  font-size: 28px;
+}
+
+/* .super-cool {
+  color: green;
+  font-size: 10px;
+} */
+
+li.super-cool {
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+}
+div > p {
+  color: yellow;
+}
+
+p + div {
+  color: purple;
+}
+p ~ ul {
+  border: solid 1px brown;
+}
+
+li:hover {
+  cursor: pointer;
+  background: red;
+}
+
+p#comments-title::first-letter {
+  font-size: 60px;
+}

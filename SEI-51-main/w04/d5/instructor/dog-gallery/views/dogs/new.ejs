@@ -1,0 +1,14 @@
+<%- include('../partials/header.ejs') %>
+<h1>Add A New Dog</h1>
+<form action="/dogs" method="POST">
+  <label for="name">Name</label>
+  <input type="text" name="name" />
+  <label for="age">Age</label>
+  <input type="number" name="age" />
+  <label for="description">Description</label>
+  <input type="text" name="description" />
+  <label for="img">Image</label>
+  <input type="text" name="img" />
+  <button type="submit">Update Dog</button>
+</form>
+<%- include('../partials/footer.ejs') %>

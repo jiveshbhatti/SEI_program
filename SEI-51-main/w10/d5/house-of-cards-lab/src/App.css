@@ -1,0 +1,32 @@
+
+
+.banner-virtual-tour {
+  background-color: #7268a8;
+  color: white;
+  padding: 3em 0;
+  text-align: center;
+}
+
+.house-container {
+  background-color: #c5b0d5;
+  padding-bottom: 13em;
+}
+
+.house-wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.roof {
+  /* background-image: url("../images/vt/roof.png"); */
+  padding-top: 30%;
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+}
+
+.rooms {
+  display: flex;
+  flex-direction: row;
+}

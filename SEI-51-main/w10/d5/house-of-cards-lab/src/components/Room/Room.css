@@ -1,0 +1,157 @@
+
+  
+  .room {
+    /* cursor: pointer; */
+    width: 33.33%;
+    padding: 10.5%;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  
+  .room:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color: #fff;
+    opacity: 0;
+    transition: .5s;
+  }
+  
+  .room:hover:before {
+    opacity: .5;
+  }
+  
+  .btn-room-name {
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: #7268a8;
+    padding: 20px 30px;
+    font-size: 8px;
+    letter-spacing: 1px;
+    line-height: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .5s;
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .room:hover .btn-room-name {
+    opacity: 1;
+  }
+  
+  .btn-room-name:hover {
+    background-color: rgba(59,30,94,0.9);
+    cursor: pointer;
+  }
+  
+  .room-names .btn-room-name {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .showButton {
+    opacity: 1;
+  }
+  
+  
+  .r1 {
+    /* background-image: url("../images/vt/1-councellingroom.png"); */
+  }
+  
+  /*.r1:hover {
+    background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("../images/vt/1-councellingroom.png")
+  }*/
+  
+  .r2 {
+    /* background-image: url("../images/vt/2-grouproom.png"); */
+  }
+  /*.r2:hover {
+    background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("../images/vt/2-grouproom.png")
+  }*/
+  
+  
+  .r3 {
+    /* background-image: url("../images/vt/3-youthroom.png"); */
+  }
+  /*
+  .r3:hover {
+    background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("../images/vt/3-youthroom.png");
+  }
+  */
+  
+  .r4 {
+    /* background-image: url("../images/vt/4-bedroom.png"); */
+  }
+  /*
+  .r4:hover {
+    background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("../images/vt/4-bedroom.png");
+  }
+  */
+  
+  .r5 {
+    /* background-image: url("../images/vt/5-laundry-room.png"); */
+  }
+  /*.r5:hover {
+    background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("../images/vt/5-laundry-room.png");
+  }*/
+  
+  .r6 {
+    /* background-image: url("../images/vt/6-childrenroom.png"); */
+  }
+  /*
+  .r6:hover {
+    background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("../images/vt/6-childrenroom.png");
+  }
+  */
+  
+  .r7 {
+    /* background-image: url("../images/vt/7-livingroom.png"); */
+  }
+  /*.r7:hover {
+    background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("../images/vt/7-livingroom.png");
+  }*/
+  
+  .r8 {
+    /* background-image: url("../images/vt/8-diningroom.png"); */
+  }
+  /*
+  .r8:hover {
+    background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("../images/vt/8-diningroom.png");
+  }
+  */
+  
+  .r9 {
+    /* background-image: url("../images/vt/9-kitchen.png"); */
+  }
+  /*.r9:hover {
+    background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("../images/vt/9-kitchen.png");
+  }*/
+  
+  .r10 {
+    /* background-image: url("../images/vt/10-frontyard.png"); */
+  }
+  .r10:hover {
+    /* background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("../images/vt/10-frontyard.png"); */
+  }
+  
+  .r11 {
+    /* background-image: url("../images/vt/11-front.png"); */
+  }
+  .r11:hover {
+    /* background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("../images/vt/11-front.png"); */
+  }
+  
+  .r12 {
+    /* background-image: url("../images/vt/12-yard.png"); */
+  }
+  .r12:hover {
+    /* background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("../images/vt/12-yard.png"); */
+  }

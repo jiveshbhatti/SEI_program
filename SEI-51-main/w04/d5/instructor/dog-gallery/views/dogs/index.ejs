@@ -1,0 +1,21 @@
+<%- include('../partials/header.ejs') %>
+<h1>Dog Gallery</h1>
+<div class="dog-gallery">
+  <% dogs.forEach(dog => { %>
+  <a href="/dogs/<%= dog.id %>">
+    <div class="dog-card">
+      <form
+        class="delete"
+        action="/dogs/<%= dog.id %>?_method=delete"
+        method="POST"
+      >
+        <button>X</button>
+      </form>
+      <img src="<%= dog.img %>" alt="dog image: <%= dog.name %>" />
+    </div>
+  </a>
+  <% }) %>
+</div>
+<a class="float-create" href="/dogs/new">Add New Dog</a>
+
+<%- include('../partials/footer.ejs') %>

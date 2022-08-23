@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dog-gallery {
+  width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.dog-card {
+  position: relative;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.dog-card > img {
+  height: 300px;
+}
+
+a {
+  color: #00b7ff;
+}
+
+form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+form > input {
+  margin: 3px 0 10px;
+}
+
+.delete {
+  margin: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.delete > button {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: solid 4px white;
+  border-radius: 50%;
+  padding: 10px;
+  width: 42px;
+}

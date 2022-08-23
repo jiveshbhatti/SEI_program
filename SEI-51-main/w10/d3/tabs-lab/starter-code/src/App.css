@@ -1,0 +1,34 @@
+.team-board{
+    /* background-image: url("../images/header-foam-events.png"); */
+    background-size: contain;
+    background-repeat:no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0 0 0;
+    background-color: #7d76b6;
+    font-weight: lighter;
+    font-size: 1.5em;
+  }
+  
+  .team-board-wrapper {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .our-team-btn, .our-board-btn {
+    padding: 0.8em 1.5em;
+  }
+  
+  .our-team-btn {
+    background-color: #3b1e5e;
+  }
+  
+  .our-board-btn {
+    background-color: #7268a8;
+  }
+  
+  .board-cards {
+    display: none;
+  }
